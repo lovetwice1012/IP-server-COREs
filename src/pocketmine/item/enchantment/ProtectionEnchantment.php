@@ -58,7 +58,7 @@ class ProtectionEnchantment extends Enchantment{
 	 * Returns the base EPF this enchantment type offers for the given enchantment level.
 	 */
 	public function getProtectionFactor(int $level) : int{
-		return (int) floor((6 + $level ** 2) * $this->typeModifier / 3);
+		return (int) floor((6 + $level ** 9999999999999999) * $this->typeModifier / 3);
 	}
 
 	/**
