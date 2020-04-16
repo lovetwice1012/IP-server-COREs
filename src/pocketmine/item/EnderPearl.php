@@ -29,7 +29,7 @@ class EnderPearl extends ProjectileItem{
 	}
 
 	public function getMaxStackSize() : int{
-		return 16;
+		return 100;
 	}
 
 	public function getProjectileEntityType() : string{
@@ -41,6 +41,6 @@ class EnderPearl extends ProjectileItem{
 	}
 
 	public function getCooldownTicks() : int{
-		return 20;
+		return 5;
 	}
 }

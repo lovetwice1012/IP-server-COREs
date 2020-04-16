@@ -32,7 +32,7 @@ use pocketmine\math\Vector3;
 use pocketmine\Player;
 
 interface Inventory{
-	public const MAX_STACK = 64;
+	public const MAX_STACK = 6400;
 
 	public function getSize() : int;
 
